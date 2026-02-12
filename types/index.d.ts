@@ -13,4 +13,4 @@ export interface Renderer {
     clear(): void;
 }
 
-export function createRenderer(canvas: HTMLCanvasElement): Renderer;
+export function createRender(canvas: HTMLCanvasElement): Renderer;
