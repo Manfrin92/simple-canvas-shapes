@@ -1,6 +1,6 @@
 {
   "name": "simple-canvas-shapes",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Simple canvas shapes for HTML5",
   "main": "dist/index.js",
   "type": "module",
