@@ -20,6 +20,8 @@ function copyDir(src, dest) {
             fs.copyFileSync(srcPath, destPath);
         }
     }
+
+    fs.copyFileSync("types/index.d.ts", "dist/index.d.ts");
 }
 
 copyDir(srcDir, distDir);
